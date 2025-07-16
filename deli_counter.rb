@@ -1,5 +1,3 @@
-require 'pry'
-
 def line current_line
   return puts "The line is currently empty." if current_line.length <= 0
   puts "The line is currently:#{(current_line.map.with_index { |person, index| " #{index + 1}. #{person}" }).join}"
